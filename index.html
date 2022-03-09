@@ -1,0 +1,59 @@
+---
+title: Jordan Terry's Personal Website
+description: Jordan Terry's Personal Website
+---
+
+<!-- This is the main page of the website -->
+<div class="jumbotron mb-0" style="background-color: white;">
+    <div class="container">
+        <div class="row">
+            <!-- the left column with image and personal info -->
+            <div class="col-12 col-md-4 offset-md-2 px-4 text-center">
+                
+                <h1 class="mb-2 mt-2">J K Terry</h1>
+                <h5 style="font-weight: 400px;">{{site.email}}</h5>
+                
+                <p class="text-left mt-5">
+                    I am a PhD student at the University of Maryland, College Park, co-advised by Dr. John Dickerson (CS) and Dr. Dan Lathrop (Physics). I research multi-agent deep reinforcement learning and its applications to natural science, and am the maintainer of Gym and PettingZoo. I am also the founder of Swarm Labs.
+                </p>
+            </div>
+            <!-- the right column with education, industry experience, 
+                and languages. (d-flex flex-column) makes it so the
+                vertical content spacing changes with height of the
+                left column (just makes the vertical spacing nice) -->
+            <div class="col-12 col-md-6 text-center">
+                <img src="jordan.png" id="headshot" style="max-width:16rem;" id="left" alt=""
+                    class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row text-center">
+        <div class="col-12 col-md-6">
+            <a href="academic-works.html"><h2>Academic Works</h2></a>
+        </div>
+        <div class="col-12 col-md-6">
+            <h2>Curriculum Vitae</h2>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid text-center mt-5 pt-5">
+    {% for media in site.data.media %}
+    {% if media.name == "google-scholar" %}
+        {% assign link = site.google-scholar %}
+    {% elsif media.name == "twitter" %}
+        {% assign link = site.twitter %}
+    {% elsif media.name == "youtube" %}
+        {% assign link = site.youtube %}
+    {% elsif media.name == "github" %}
+        {% assign link = site.github %}
+    {% elsif media.name == "linkedin" %}
+        {% assign link = site.linkedin %}
+    {% endif %}
+    
+    <a href="{{link}}"><img src="assets/{{media.name}}.svg" class="mx-5"></a>
+    {% endfor %}
+</div>

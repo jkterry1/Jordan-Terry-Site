@@ -1,0 +1,101 @@
+Peer Review Track Publications:
+  - title: Revisiting parameter sharing in multi-agent deep reinforcement learning
+    authors: Terry, J. K., Nathaniel Grammel, Ananth Hari, Luis Santos, and Benjamin Black
+    location: arXiv
+    date: "2021"
+    arxiv: ""
+    bibtex: ""
+  - title: "PettingZoo: Gym for multi-agent reinforcement learning"
+    authors: Terry, J. K., Nathaniel Grammel, Ananth Hari, Luis Santos, and Benjamin Black
+    location: arXiv
+    date: "2021"
+    arxiv: ""
+    bibtex: ""
+    link: ""
+    notes:
+      - "Accepted into AAMAS OptLearnMAS 2021 and NeurIPS Deep RL Workshops"
+
+  - title: "Understanding generalization through visualizations"
+    authors: Huang, W. Ronny, Zeyad Emam, Micah Goldblum, Liam Fowl, Terry, J. K., Furong Huang, and Tom Goldstein
+    location: arXiv
+    date: "2021"
+    arxiv: ""
+    bibtex: ""
+    link: ""
+    notes:
+      - "Accepted into NeurIPS ICBINB 2020 workshop, spotlight talk"
+
+  - title: "Multiplayer support for the arcade learning environment"
+    authors: Terry, J. K.*, Benjamin Black*, and Luis Santos
+    location: arXiv
+    date: "2020"
+    arxiv: ""
+    bibtex: ""
+    link: ""
+    notes:
+      - "Accepted into AAMAS OptLearnMAS 2021 Workshop"
+      -  "* Denotes equal contribution"
+
+Non-Peer Review Track Publications:
+  - title: Multi-Agent Deep Reinforcement Learning in 13 Lines of Code Using PettingZoo
+    authors: Terry, J. K.
+    location: Towards Data Science
+    date: "2021"
+    arxiv: ""
+    bibtex: ""
+    notes:
+      - Editors choice
+  - title: Statistically Significant Stopping of Neural Network Training
+    authors: Terry, J. K., Mario Jayakumar, and Kusal De Alwis.
+    location: arXiv
+    date: "2021"
+    arxiv: ""
+    bibtex: ""
+  - title: "Supersuit: Simple microwrappers for reinforcement learning environments"
+    authors: Terry, J. K., Black, B. and Hari, A.
+    location: arXiv
+    date: "2020"
+    arxiv: ""
+    bibtex: ""
+  
+Invited Talks:
+  - title: "Gym and PettingZoo"
+    location: ML Collective
+    date: "August 2021"
+    pdf: ""
+    video: ""
+  - title: Monte Carlo Emergence Search and the Flocking Learning Environment
+    location: Army Research Laboratory
+    date: July 2021
+  - title: PettingZoo
+    location: Toronto Synthetic Intelligence Forum
+    date: March 2021
+    pdf: ""
+    video: ""
+  - title: "Multi-Agent Reinforcement Learning: Systems for Evaluation and Relations to Complex Systems"
+    location: UMD RLSS
+    date: January 2021
+    pdf: ""
+
+Teaching:
+  - title: "Introduction to Artificial Intelligence (Undergraduate) | CMSC421"
+    position: Teaching Assistant
+    date: Spring 2019
+  - title: Deep Learning (Graduate) | CMSC828L*
+    position: Teaching Assistant
+    date: Fall 2018
+    notes: "* At the time of writing, this course number now corresponds to a different course"
+  - title: Applied Machine Learning (Undergraduate) | PHYS476
+    position: Instructor*
+    date: Spring 2018
+    notes: "* Invited by department to create and teach course; it has now become permanent and is offered annually"
+  - title: Machine Learning for Physicists (Semester Long Seminar)
+    position: Speaker/Organizer
+    date: Spring 2017
+
+Other:
+  - title: Recipient of QinetiQ Fundamental Machine Learning Graduate Fellowship
+  - title: Maintainer of Gym and PettingZoo libraries, the 1st and 3rd most installed reinforcement learning libraries on PyPI as well as numerous libraries in the surrounding ecosystem
+  - title: Organizer of UMD Reinforcement Learning Seminar Series [talks]
+    
+    
