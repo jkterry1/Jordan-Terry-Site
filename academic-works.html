@@ -39,8 +39,16 @@
                         <div>
                             {{pub.authors | replace: site.author_name, bold_author_name}}
                         </div>
+                        
                         <div>
-                            {{pub.location}} | {{pub.date}}
+                            
+                            {{pub.location}} 
+                            {% if pub.location and pub.date%}
+                            |
+                            {% endif %}
+                            
+                             {{pub.date}}
+                            
                         </div>
                         <div>
                             {% if pub.arxiv %} 

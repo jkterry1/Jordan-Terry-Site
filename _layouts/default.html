@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
     {% include head.html %}
-<body >
+<body>
+    {% unless page.index %}
+        <div style="display: fixed;" class="ml-5 pt-5">
+            <a href="/{{index.html}}"><i class="fa fa-home fa-2x" style="color: black;"></i></a>
+        </div>
+    {% endunless %}
     {{content}}
 </body>
 

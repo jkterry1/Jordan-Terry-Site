@@ -1,26 +1,23 @@
 ---
 title: Jordan Terry's Personal Website
 description: Jordan Terry's Personal Website
+index: true
 ---
 
-<!-- This is the main page of the website -->
 <div class="jumbotron mb-0" style="background-color: white;">
     <div class="container">
         <div class="row">
-            <!-- the left column with image and personal info -->
-            <div class="col-12 col-md-4 offset-md-2 px-4 text-center">
-                
-                <h1 class="mb-2 mt-2">J K Terry</h1>
-                <h5 style="font-weight: 400px;">{{site.email}}</h5>
-                
-                <p class="text-left mt-5">
-                    I am a PhD student at the University of Maryland, College Park, co-advised by Dr. John Dickerson (CS) and Dr. Dan Lathrop (Physics). I research multi-agent deep reinforcement learning and its applications to natural science, and am the maintainer of Gym and PettingZoo. I am also the founder of Swarm Labs.
-                </p>
+            <div class="col-12 col-md-6 text-center">
+
+                <div class="mx-5 px-5">
+                    <h1 class="mb-2 mt-2">J K Terry</h1>
+                    <h5 style="font-weight: 400px;">{{site.email}}</h5>
+                    
+                    <p class="text-left mt-5">
+                        I am a PhD student at the University of Maryland, College Park, co-advised by Dr. John Dickerson (CS) and Dr. Dan Lathrop (Physics). I research multi-agent deep reinforcement learning and its applications to natural science, and am the maintainer of Gym and PettingZoo. I am also the founder of Swarm Labs.
+                    </p>
+                </div>
             </div>
-            <!-- the right column with education, industry experience, 
-                and languages. (d-flex flex-column) makes it so the
-                vertical content spacing changes with height of the
-                left column (just makes the vertical spacing nice) -->
             <div class="col-12 col-md-6 text-center">
                 <img src="jordan.png" id="headshot" style="max-width:16rem;" id="left" alt=""
                     class="img-fluid">
@@ -29,13 +26,19 @@ description: Jordan Terry's Personal Website
     </div>
 </div>
 
+<!-- <style>
+    *{
+        border: 1px solid black
+    }
+</style> -->
+
 <div class="container">
     <div class="row text-center">
         <div class="col-12 col-md-6">
             <a href="academic-works.html"><h2>Academic Works</h2></a>
         </div>
         <div class="col-12 col-md-6">
-            <h2>Curriculum Vitae</h2>
+            <a href="cv" target="_blank"><h2>Curriculum Vitae</h2></a>
         </div>
     </div>
 </div>
