@@ -4,7 +4,7 @@
     {% include head.html %}
 <body>
     {% unless page.index %}
-        <div style="display: fixed;" class="ml-5 pt-5">
+        <div style="display: fixed;z-index: 100;float:left" class="ml-5">
             <a href="/{{index.html}}"><i class="fa fa-home fa-2x" style="color: black;"></i></a>
         </div>
     {% endunless %}

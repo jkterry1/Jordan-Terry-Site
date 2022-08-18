@@ -3,14 +3,17 @@ title: Jordan Terry's Personal Website
 description: Jordan Terry's Personal Website
 index: true
 ---
-
+<style>
+    a{
+        color: black;
+    }
+</style>
 <div class="jumbotron mb-0" style="background-color: white;">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6 text-center">
-
-                <div class="mx-5 px-5">
-                    <h1 class="mb-2 mt-2">J K Terry</h1>
+            <div class="col-12 col-md-5 offset-md-1">
+                <div class="d-flex flex-column text-center my-5">
+                    <h1 class="mb-2 mt-2">Jordan K Terry</h1>
                     <h5 style="font-weight: 400px;">{{site.email}}</h5>
                     
                     <p class="text-left mt-5">
@@ -18,9 +21,11 @@ index: true
                     </p>
                 </div>
             </div>
-            <div class="col-12 col-md-6 text-center">
-                <img src="jordan.png" id="headshot" style="max-width:16rem;" id="left" alt=""
-                    class="img-fluid">
+            <div class="col-12 col-md-5">
+                <div class="d-flex flex-column text-center">
+                    <div class="">
+                        <img class="img-fluid my-5" src="jordan.png" style="width: 50%" alt="Jordan K Terry"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -34,29 +39,35 @@ index: true
 
 <div class="container">
     <div class="row text-center">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-5 offset-md-1">
             <a href="academic-works.html"><h2>Academic Works</h2></a>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-5">
             <a href="cv" target="_blank"><h2>Curriculum Vitae</h2></a>
         </div>
     </div>
 </div>
 
-<div class="container-fluid text-center mt-5 pt-5">
-    {% for media in site.data.media %}
-    {% if media.name == "google-scholar" %}
-        {% assign link = site.google-scholar %}
-    {% elsif media.name == "twitter" %}
-        {% assign link = site.twitter %}
-    {% elsif media.name == "youtube" %}
-        {% assign link = site.youtube %}
-    {% elsif media.name == "github" %}
-        {% assign link = site.github %}
-    {% elsif media.name == "linkedin" %}
-        {% assign link = site.linkedin %}
-    {% endif %}
-    
-    <a href="{{link}}"><img src="assets/{{media.name}}.svg" class="mx-5"></a>
-    {% endfor %}
+<div class="container text-center mt-5 py-5">
+    <div class="row">
+        <div class="col-12 d-flex flex-row justify-content-around">
+            {% for media in site.data.media %}
+                {% if media.name == "google-scholar" %}
+                    {% assign link = site.google-scholar %}
+                {% elsif media.name == "twitter" %}
+                    {% assign link = site.twitter %}
+                {% elsif media.name == "youtube" %}
+                    {% assign link = site.youtube %}
+                {% elsif media.name == "github" %}
+                    {% assign link = site.github %}
+                {% elsif media.name == "linkedin" %}
+                    {% assign link = site.linkedin %}
+                {% endif %}
+                
+                <div>
+                    <a href="{{link}}"><img src="assets/{{media.name}}.svg" class="mx-5" style="width: 30%;"></a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
 </div>
