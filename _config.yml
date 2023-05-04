@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: J K Terry
+name: Jordan K Terry
 # Used for hightlighting name in publications
 author_name: Terry, J. K.
 
@@ -15,7 +15,7 @@ style:  kjhealy
 # Flags below are optional
 #
 
-email: JKTerry@umd.edu
+email: jkterry0@gmail.com
 github: https://github.com/jkterry1
 youtube: https://www.youtube.com/channel/UC0bLGG1bmqbnm43EC4LRNIA
 linkedin: https://www.linkedin.com/in/dr-jordan-terry/
@@ -43,7 +43,7 @@ defaults:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: ""
+url: "https://jkterry.ai/"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
