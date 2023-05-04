@@ -35,7 +35,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: "jordan.png"
+      image: "jordan.jpg"
       layout: "default"
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
