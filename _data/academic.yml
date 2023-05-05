@@ -66,23 +66,6 @@ Peer Review Track Publications:
     notes:
       - "Accepted into NeurIPS ICBINB 2020 workshop, spotlight talk"
 
-  - title: "Multiplayer support for the arcade learning environment"
-    authors: Terry, J. K.*, Benjamin Black*, and Luis Santos
-    location: arXiv
-    date: "2020"
-    arxiv: "https://arxiv.org/abs/2009.09341"
-    bibtex: "@article{Terry2020MultiplayerSF,
-              title={Multiplayer Support for the Arcade Learning Environment},
-              author={Justin K. Terry and Benjamin Black},
-              journal={ArXiv},
-              year={2020},
-              volume={abs/2009.09341}
-            }"
-    link: ""
-    notes:
-      - "Accepted into AAMAS OptLearnMAS 2021 Workshop"
-      -  "* Denotes equal contribution"
-
 Non-Peer Review Track Publications:
   - title: Multi-Agent Deep Reinforcement Learning in 13 Lines of Code Using PettingZoo
     authors: Terry, J. K.
@@ -117,7 +100,22 @@ Non-Peer Review Track Publications:
               year={2020},
               volume={abs/2008.08932}
             }"
-
+  - title: "Multiplayer support for the arcade learning environment"
+    authors: Terry, J. K.*, Benjamin Black*, and Luis Santos
+    location: arXiv
+    date: "2020"
+    arxiv: "https://arxiv.org/abs/2009.09341"
+    bibtex: "@article{Terry2020MultiplayerSF,
+              title={Multiplayer Support for the Arcade Learning Environment},
+              author={Justin K. Terry and Benjamin Black},
+              journal={ArXiv},
+              year={2020},
+              volume={abs/2009.09341}
+            }"
+    link: ""
+    notes:
+      - "Accepted into AAMAS OptLearnMAS 2021 Workshop"
+      -  "* Denotes equal contribution"
 Invited Talks:
   - title: "The Farama Foundation"
     location: Meta AI Research
