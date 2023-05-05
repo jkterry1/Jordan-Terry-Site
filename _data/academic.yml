@@ -50,7 +50,6 @@ Peer Review Track Publications:
     link: ""
     notes:
       - "Accepted into AAMAS OptLearnMAS 2021 and NeurIPS Deep RL Workshops"
-
   - title: "Understanding generalization through visualizations"
     authors: Huang, W. Ronny, Zeyad Emam, Micah Goldblum, Liam Fowl, Terry, J. K., Furong Huang, and Tom Goldstein
     location: arXiv
@@ -116,6 +115,7 @@ Non-Peer Review Track Publications:
     notes:
       - "Accepted into AAMAS OptLearnMAS 2021 Workshop"
       -  "* Denotes equal contribution"
+
 Invited Talks:
   - title: "The Farama Foundation"
     location: Meta AI Research
