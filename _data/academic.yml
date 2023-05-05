@@ -1,16 +1,52 @@
 Peer Review Track Publications:
+  - title: "Cliff Diving: Exploring Reward Surfaces in Reinforcement Learning Environments"
+    authors: Ryan Sullivan, J. K. Terry, Benjamin Black, John P. Dickerson
+    location: arXiv
+    date: "2022"
+    arxiv: "https://arxiv.org/abs/2205.07015"
+    bibtex: "@article{Sullivan2022CliffDE,
+              title={Cliff Diving: Exploring Reward Surfaces in Reinforcement Learning Environments},
+              author={Ryan Sullivan and Justin K. Terry and Benjamin Black and John P. Dickerson},
+              journal={ArXiv},
+              year={2022},
+              volume={abs/2205.07015}
+            }"
+  - title: "Some Supervision Required: Incorporating Oracle Policies in Reinforcement Learning via Epistemic Uncertainty Metrics"
+    authors: Jun Jet Tai, Jordan K. Terry, Mauro S. Innocente, James Brusey, Nadjim Horri
+    location: arXiv
+    date: "2022"
+    arxiv: "https://arxiv.org/abs/2208.10533"
+    bibtex: "@article{Tai2022SomeSR,
+              title={Some Supervision Required: Incorporating Oracle Policies in Reinforcement Learning via Epistemic Uncertainty Metrics},
+              author={Jun Jet Tai and Jordan K. Terry and Mauro Sebasti{'a}n Innocente and James Brusey and Nadjim Horri},
+              journal={ArXiv},
+              year={2022},
+              volume={abs/2208.10533}
+            }"
   - title: Revisiting parameter sharing in multi-agent deep reinforcement learning
     authors: Terry, J. K., Nathaniel Grammel, Ananth Hari, Luis Santos, and Benjamin Black
     location: arXiv
     date: "2021"
-    arxiv: ""
-    bibtex: ""
+    arxiv: "https://arxiv.org/abs/2005.13625"
+    bibtex: "@article{Terry2020RevisitingPS,
+              title={Revisiting Parameter Sharing in Multi-Agent Deep Reinforcement Learning},
+              author={Justin K. Terry and Nathaniel Grammel and Ananth Hari and Luis Paulo Santos and Benjamin Black},
+              journal={arXiv: Learning},
+              year={2020}
+            }"
   - title: "PettingZoo: Gym for multi-agent reinforcement learning"
     authors: Terry, J. K., Nathaniel Grammel, Ananth Hari, Luis Santos, and Benjamin Black
-    location: arXiv
+    location: NeurIPS 2021
     date: "2021"
-    arxiv: ""
-    bibtex: ""
+    arxiv: "https://arxiv.org/abs/2009.14471"
+    bibtex: "@inproceedings{terry2021pettingzoo,
+              title={PettingZoo: Gym for Multi-Agent Reinforcement Learning},
+              author={J K Terry and Benjamin J Black and Nathaniel Grammel and Mario Jayakumar and Ananth Hari and Ryan Sullivan and Luis Santos and Clemens Dieffendahl and Caroline Horsch and Rodrigo De Lazcano Perez-Vicente and Niall L Williams and Yashas Lokesh and Praveen Ravi},
+              booktitle={Advances in Neural Information Processing Systems},
+              editor={A. Beygelzimer and Y. Dauphin and P. Liang and J. Wortman Vaughan},
+              year={2021},
+              url={https://openreview.net/forum?id=fLnsj7fpbPI}
+            }"
     link: ""
     notes:
       - "Accepted into AAMAS OptLearnMAS 2021 and NeurIPS Deep RL Workshops"
@@ -19,8 +55,13 @@ Peer Review Track Publications:
     authors: Huang, W. Ronny, Zeyad Emam, Micah Goldblum, Liam Fowl, Terry, J. K., Furong Huang, and Tom Goldstein
     location: arXiv
     date: "2021"
-    arxiv: ""
-    bibtex: ""
+    arxiv: "https://arxiv.org/abs/1906.03291"
+    bibtex: "@inproceedings{Huang2019UnderstandingGT,
+              title={Understanding Generalization through Visualizations},
+              author={W. Ronny Huang and Zeyad Ali Sami Emam and Micah Goldblum and Liam Fowl and Justin K. Terry and Furong Huang and Tom Goldstein},
+              booktitle={ICBINB@NeurIPS},
+              year={2019}
+            }"
     link: ""
     notes:
       - "Accepted into NeurIPS ICBINB 2020 workshop, spotlight talk"
@@ -29,8 +70,14 @@ Peer Review Track Publications:
     authors: Terry, J. K.*, Benjamin Black*, and Luis Santos
     location: arXiv
     date: "2020"
-    arxiv: ""
-    bibtex: ""
+    arxiv: "https://arxiv.org/abs/2009.09341"
+    bibtex: "@article{Terry2020MultiplayerSF,
+              title={Multiplayer Support for the Arcade Learning Environment},
+              author={Justin K. Terry and Benjamin Black},
+              journal={ArXiv},
+              year={2020},
+              volume={abs/2009.09341}
+            }"
     link: ""
     notes:
       - "Accepted into AAMAS OptLearnMAS 2021 Workshop"
@@ -43,22 +90,65 @@ Non-Peer Review Track Publications:
     date: "2021"
     arxiv: ""
     bibtex: ""
+    link: "https://towardsdatascience.com/multi-agent-deep-reinforcement-learning-in-15-lines-of-code-using-pettingzoo-e0b963c0820b"
     notes:
       - Editors choice
   - title: Statistically Significant Stopping of Neural Network Training
     authors: Terry, J. K., Mario Jayakumar, and Kusal De Alwis.
     location: arXiv
     date: "2021"
-    arxiv: ""
-    bibtex: ""
+    arxiv: "https://arxiv.org/abs/2103.01205"
+    bibtex: "@article{Terry2021StatisticallySS,
+              title={Statistically Significant Stopping of Neural Network Training},
+              author={Justin K. Terry and Mario Jayakumar and Kusal De Alwis},
+              journal={ArXiv},
+              year={2021},
+              volume={abs/2103.01205}
+            }"
   - title: "Supersuit: Simple microwrappers for reinforcement learning environments"
     authors: Terry, J. K., Black, B. and Hari, A.
     location: arXiv
     date: "2020"
-    arxiv: ""
-    bibtex: ""
-  
+    arxiv: "https://arxiv.org/abs/2008.08932"
+    bibtex: "@article{Terry2020SuperSuitSM,
+              title={SuperSuit: Simple Microwrappers for Reinforcement Learning Environments},
+              author={Justin K. Terry and Benjamin Black and Ananth Hari},
+              journal={ArXiv},
+              year={2020},
+              volume={abs/2008.08932}
+            }"
+
 Invited Talks:
+  - title: "The Farama Foundation"
+    location: Meta AI Research
+    date: "January 2023"
+    pdf: ""
+    video: ""
+  - title: "Umshini: A New Approach to RL Evaluation"
+    location: Learning in Foundation Environments (LIFE)
+    date: "August 2022"
+    pdf: ""
+    video: ""
+  - title: "Umshini: A New Approach to RL Evaluation"
+    location: HuggingFace
+    date: "July 2022"
+    pdf: ""
+    video: ""
+  - title: "Gym and the Future of Reinforcement Learning"
+    location: Open Data Science Conference (ODSC)
+    date: "April 2022"
+    pdf: ""
+    video: ""
+  - title: "The Future of Gym and Reinforcement Learning"
+    location: TalkRL Podcast
+    date: "Dec 2021"
+    pdf: ""
+    video: "https://www.talkrl.com/episodes/jordan-terry"
+  - title: "Exploring Reward Surfaces in Deep Reinforcement Learning"
+    location: K-KDD
+    date: "Oct 2021"
+    pdf: ""
+    video: ""
   - title: "Gym and PettingZoo"
     location: ML Collective
     date: "August 2021"
@@ -96,5 +186,4 @@ Teaching:
 Other:
   - title: Recipient of QinetiQ Fundamental Machine Learning Graduate Fellowship
   - title: Organizer of UMD Reinforcement Learning Seminar Series (RLSS)
-    
-    
+
