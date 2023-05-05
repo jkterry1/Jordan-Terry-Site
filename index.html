@@ -15,7 +15,7 @@ index: true
                 <div class="d-flex flex-column text-center my-5">
                     <h1 class="mb-2 mt-2">Jordan K Terry</h1>
                     <h5 style="font-weight: 400px;">{{site.email}}</h5>
-                    
+
                     <p class="text-left mt-5">
                         I am the CEO of the Farama Foundation, a reinforcement learning standards nonprofit, and Swarm Labs, a stealth mode artificial intelligence startup. Before that I completed a PhD in computer science at the University of Maryland, where I was advised by John Dickerson.
                     </p>
@@ -39,7 +39,7 @@ index: true
 
 <div class="container">
     <div class="row text-center">
-        <div class="col-12 col-md-5 offset-md-1">
+        <div class="col-12 col-md-5 mb-3 offset-md-1">
             <a href="academic-works.html"><h2>Academic Works</h2></a>
         </div>
         <div class="col-12 col-md-5">
@@ -50,7 +50,7 @@ index: true
 
 <div class="container text-center mt-5 py-5">
     <div class="row">
-        <div class="col-12 d-flex flex-row justify-content-around">
+        <div class="col-12 d-flex flex-row justify-content-around row">
             {% for media in site.data.media %}
                 {% if media.name == "google-scholar" %}
                     {% assign link = site.google-scholar %}
@@ -63,8 +63,8 @@ index: true
                 {% elsif media.name == "linkedin" %}
                     {% assign link = site.linkedin %}
                 {% endif %}
-                
-                <div>
+
+                <div class="col-6 col-sm-4 col-md-2 mb-5 mb-md-0 d-flex align-items-center">
                     <a href="{{link}}"><img src="assets/{{media.name}}.svg" class="mx-5" style="width: 30%;"></a>
                 </div>
             {% endfor %}

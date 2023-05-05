@@ -10,7 +10,7 @@ author_name: Terry, J. K.
 style:  kjhealy
 
 # Short bio or description (displayed in the header)
-# description: 
+# description:
 
 # Flags below are optional
 #
@@ -21,6 +21,8 @@ youtube: https://www.youtube.com/channel/UC0bLGG1bmqbnm43EC4LRNIA
 linkedin: https://www.linkedin.com/in/dr-jordan-terry/
 twitter: https://mobile.twitter.com/j_k_terry
 google-scholar: https://scholar.google.com/citations?user=gb83gcIAAAAJ&hl=en&oi=sra
+
+google_analytics:
 
 plugins:
   - jekyll-feed
@@ -39,7 +41,7 @@ defaults:
       layout: "default"
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-# google_analytics: 
+# google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
