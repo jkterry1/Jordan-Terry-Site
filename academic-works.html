@@ -1,25 +1,54 @@
 ---
 ---
-<div class="jumobtron">
+<div>
     <h1 class="m-5 text-center">Academic Works</h1>
 </div>
 
-<div class="container-fluid">
+<div class="modal fade" id="bibtexModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Bibtex</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <code>
+                    oLA
+                </code>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const exampleModal = document.getElementById('bibtexModal');
+    exampleModal.addEventListener('show.bs.modal', function (event) {
+        // Button that triggered the modal
+        const button = event.relatedTarget
+        // Extract info from data-bs-* attributes
+        const recipient = button.getAttribute('data-bs-whatever')
+        const modalBodyInput = exampleModal.querySelector('.modal-body code')
+
+        modalBodyInput.innerHTML = recipient
+    })
+</script>
+
+<div class="container">
     <div class="row">
         <div class="d-none d-lg-block col-lg-2 order-last text-center">
             <div style="position: fixed;margin-top: -50px;" class="mr-lg-5">
                 {% assign index = 0 %}
                 {% for var in site.data.academic %}
 
-                    {% assign type = var[0] %}
-                    {% if index != 0 %}
-                    <hr style="background-color: rgb(0, 0, 0);width:80%; opacity: 1" class="mx-auto">
-                    {% endif %}
+                {% assign type = var[0] %}
+                {% if index != 0 %}
+                <hr style="background-color: rgb(0, 0, 0);width:80%; opacity: 1" class="mx-auto">
+                {% endif %}
 
-                    <div style="width:80%;" class="mx-auto py-2">
-                        <a href="#{{type}}">{{type}}</a>
-                    </div>
-                    {% assign index = 1 %}
+                <div style="width:80%;" class="mx-auto py-2">
+                    <a href="#{{type}}">{{type}}</a>
+                </div>
+                {% assign index = 1 %}
                 {% endfor %}
             </div>
 
@@ -27,47 +56,51 @@
         <div class="col-12 col-md-10 pl-3 pl-md-5">
             {% assign bold_author_name = '<b>' | append: site.author_name | append: '</b>' %}
             {% for var in site.data.academic %}
-                {% assign type = var[0] %}
-                <h3 id="{{type}}">{{type}}</h3>
-                {% assign publications = var[1] %}
-                {% for pub in publications %}
-                    <div class="mb-3 ml-3">
-                        <div>
-                            {{pub.title}}
-                        </div>
-                        <div>
-                            {{pub.authors | replace: site.author_name, bold_author_name}}
-                        </div>
+            {% assign type = var[0] %}
+            <h3 id="{{type}}">{{type}}</h3>
+            {% assign publications = var[1] %}
+            {% for pub in publications %}
+            <div class="mb-3 ml-3">
+                <div>
+                    {{pub.title}}
+                </div>
+                <div>
+                    {{pub.authors | replace: site.author_name, bold_author_name}}
+                </div>
 
-                        <div>
+                <div>
 
-                            {{pub.location}}
-                            {% if pub.location and pub.date%}
-                            |
-                            {% endif %}
+                    {{pub.location}}
+                    {% if pub.location and pub.date%}
+                    |
+                    {% endif %}
 
-                             {{pub.date}}
+                    {{pub.date}}
 
-                        </div>
-                        <div>
-                            {% if pub.arxiv and pub.arxiv != "" %}
-                                [<a href="{{pub.arxiv}}">arXiv</a>]
-                            {% endif %}
-                            {% if pub.bibtex and pub.bibtex != "" %}
-                                [<a href="{{pub.bibtex}}">bibtex</a>]
-                            {% endif %}
-                            {% if pub.link and pub.link != "" %}
-                                [<a href="{{pub.link}}">link</a>]
-                            {% endif %}
-                            {% if pub.video and pub.video != "" %}
-                                [<a href="{{pub.video}}">video</a>]
-                            {% endif %}
-                            {% if pub.pdf and pub.pdf != "" %}
-                                [<a href="{{pub.pdf}}" target="_blank">pdf</a>]
-                            {% endif %}
-                        </div>
-                    </div>
-                {% endfor %}
+                </div>
+                {% if pub.notes and pub.notes != "" %}
+                <i>{{ pub.notes | array_to_sentence_string: ',' }}</i>
+                {% endif %}
+                <div>
+                    {% if pub.arxiv and pub.arxiv != "" %}
+                    [<a href="{{pub.arxiv}}">arXiv</a>]
+                    {% endif %}
+                    {% if pub.bibtex and pub.bibtex != "" %}
+                    [<a href="#" data-bs-toggle="modal" data-bs-target="#bibtexModal"
+                        data-bs-whatever="{{ pub.bibtex }}">bibtex</a>]
+                    {% endif %}
+                    {% if pub.link and pub.link != "" %}
+                    [<a href="{{pub.link}}">link</a>]
+                    {% endif %}
+                    {% if pub.video and pub.video != "" %}
+                    [<a href="{{pub.video}}">video</a>]
+                    {% endif %}
+                    {% if pub.pdf and pub.pdf != "" %}
+                    [<a href="{{pub.pdf}}" target="_blank">pdf</a>]
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
             {% endfor%}
         </div>
     </div>

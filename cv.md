@@ -26,14 +26,35 @@ __University of Maryland, College Park__
 
 Bachelor of Science, Physics
 
-• Graduated in 3 years as a non-transfer student with Departmental Honors, Presidential Scholarship Recipient, College Park Scholar, 3x Angelo Bardasis Fellow 
-
+• Graduated in 3 years as a non-transfer student with Departmental Honors, Presidential Scholarship Recipient, College Park Scholar, 3x Angelo Bardasis Fellow
 
 
 ## Employment
 
-`1/2019 - present`
+`1/2021 - present`
+__Farama Foundation__
+
+Founder and CEO
+
+•  I am the Founder and CEO of the Farama Foundation, a 501(c)3 nonprofit that maintains the largest open-source Reinforcement Learning libraries in the world. Our tools are used by every major tech or AI research company (e.g. Google, Amazon, Microsoft, Meta, DeepMind, OpenAI) and have tens of millions of installations.
+
+`8/2020 - present`
+__Swarm Labs__
+
+Founder and CEO
+
+•  Founder and CEO of Swarm Labs, a stealth mode artificial intelligence startup.
+
+`1/2019 - 1/2023`
 __MTEQ__
+
+Machine Learning Engineer
+
+•  Led teams of 2-8 engineers doing research and development for deep learning based computer vision projects, particularly for intelligence applications and use in embedded systems. Transitioned to infrequently consulting on challenging AI problems.
+
+
+`8/2018 - 5/2019`
+__University of Maryland Institute for Research in Electronics and Applied Physics__
 
 Machine Learning Engineer
 
@@ -42,7 +63,7 @@ Machine Learning Engineer
 
 `6/2017 - 5/2018`
 __Redhorse Corporation__
-                                 
+
 Data Scientist
 
 •  Worked with a large team to architect a large machine learning system for data collection, communication and analysis.
@@ -58,7 +79,7 @@ Machine Learning Researcher and Lead Data Scientist, Nonlinear Dynamics and Chao
 `9/2017 - 10/2017`
 
 __iGEM Technologies (Samsung Contractor)__
-                                                                                                      
+
 Machine Learning Engineer
 
 •  Consulted on machine learning enhancements to exist semiconductor fab automation software
