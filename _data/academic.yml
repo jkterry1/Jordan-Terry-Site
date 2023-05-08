@@ -4,6 +4,8 @@ Peer Review Track Publications:
     location: arXiv
     date: "2022"
     arxiv: "https://arxiv.org/abs/2205.07015"
+    notes:
+      - "Accepted into ICML 2021"
     bibtex: "@article{Sullivan2022CliffDE,
               title={Cliff Diving: Exploring Reward Surfaces in Reinforcement Learning Environments},
               author={Ryan Sullivan and Justin K. Terry and Benjamin Black and John P. Dickerson},
@@ -172,11 +174,13 @@ Teaching:
   - title: Deep Learning (Graduate) | CMSC828L*
     position: Teaching Assistant
     date: Fall 2018
-    notes: "* At the time of writing, this course number now corresponds to a different course"
+    notes:
+      - "* At the time of writing, this course number now corresponds to a different course"
   - title: Applied Machine Learning (Undergraduate) | PHYS476
     position: Instructor*
     date: Spring 2018
-    notes: "* Invited by department to create and teach course; it has now become permanent and is offered annually"
+    notes:
+      - "* Invited by department to create and teach course; it has now become permanent and is offered annually"
   - title: Machine Learning for Physicists (Semester Long Seminar)
     position: Speaker/Organizer
     date: Spring 2017
