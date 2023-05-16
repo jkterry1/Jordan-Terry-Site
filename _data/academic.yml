@@ -50,7 +50,6 @@ Peer Review Track Publications:
     link: ""
     notes:
       - "Accepted into AAMAS OptLearnMAS 2021 and NeurIPS Deep RL Workshops"
-
   - title: "Understanding generalization through visualizations"
     authors: Huang, W. Ronny, Zeyad Emam, Micah Goldblum, Liam Fowl, Terry, J. K., Furong Huang, and Tom Goldstein
     location: arXiv
@@ -65,23 +64,6 @@ Peer Review Track Publications:
     link: ""
     notes:
       - "Accepted into NeurIPS ICBINB 2020 workshop, spotlight talk"
-
-  - title: "Multiplayer support for the arcade learning environment"
-    authors: Terry, J. K.*, Benjamin Black*, and Luis Santos
-    location: arXiv
-    date: "2020"
-    arxiv: "https://arxiv.org/abs/2009.09341"
-    bibtex: "@article{Terry2020MultiplayerSF,
-              title={Multiplayer Support for the Arcade Learning Environment},
-              author={Justin K. Terry and Benjamin Black},
-              journal={ArXiv},
-              year={2020},
-              volume={abs/2009.09341}
-            }"
-    link: ""
-    notes:
-      - "Accepted into AAMAS OptLearnMAS 2021 Workshop"
-      -  "* Denotes equal contribution"
 
 Non-Peer Review Track Publications:
   - title: Multi-Agent Deep Reinforcement Learning in 13 Lines of Code Using PettingZoo
@@ -117,6 +99,22 @@ Non-Peer Review Track Publications:
               year={2020},
               volume={abs/2008.08932}
             }"
+  - title: "Multiplayer support for the arcade learning environment"
+    authors: Terry, J. K.*, Benjamin Black*, and Luis Santos
+    location: arXiv
+    date: "2020"
+    arxiv: "https://arxiv.org/abs/2009.09341"
+    bibtex: "@article{Terry2020MultiplayerSF,
+              title={Multiplayer Support for the Arcade Learning Environment},
+              author={Justin K. Terry and Benjamin Black},
+              journal={ArXiv},
+              year={2020},
+              volume={abs/2009.09341}
+            }"
+    link: ""
+    notes:
+      - "Accepted into AAMAS OptLearnMAS 2021 Workshop"
+      -  "* Denotes equal contribution"
 
 Invited Talks:
   - title: "The Farama Foundation"
