@@ -1,20 +1,6 @@
 Peer Review Track Publications:
-  - title: "Cliff Diving: Exploring Reward Surfaces in Reinforcement Learning Environments"
-    authors: Ryan Sullivan, J. K. Terry, Benjamin Black, John P. Dickerson
-    location: arXiv
-    date: "2022"
-    arxiv: "https://arxiv.org/abs/2205.07015"
-    notes:
-      - "Accepted into ICML 2021"
-    bibtex: "@article{Sullivan2022CliffDE,
-              title={Cliff Diving: Exploring Reward Surfaces in Reinforcement Learning Environments},
-              author={Ryan Sullivan and Justin K. Terry and Benjamin Black and John P. Dickerson},
-              journal={ArXiv},
-              year={2022},
-              volume={abs/2205.07015}
-            }"
   - title: "Some Supervision Required: Incorporating Oracle Policies in Reinforcement Learning via Epistemic Uncertainty Metrics"
-    authors: Jun Jet Tai, Jordan K. Terry, Mauro S. Innocente, James Brusey, Nadjim Horri
+    authors: Tai, Jun Jet, Terry, J. K., Innocente, Mauro S., Brusey, James and Horri, Nadjim
     location: arXiv
     date: "2022"
     arxiv: "https://arxiv.org/abs/2208.10533"
@@ -25,8 +11,20 @@ Peer Review Track Publications:
               year={2022},
               volume={abs/2208.10533}
             }"
+  - title: "Cliff Diving: Exploring Reward Surfaces in Reinforcement Learning Environments"
+    authors: Sullivan, Ryan, Terry, J. K., Black, Benjamin, Dickerson and John P.
+    location: ICML
+    date: "2021"
+    arxiv: "https://arxiv.org/abs/2205.07015"
+    bibtex: "@article{Sullivan2022CliffDE,
+              title={Cliff Diving: Exploring Reward Surfaces in Reinforcement Learning Environments},
+              author={Ryan Sullivan and Justin K. Terry and Benjamin Black and John P. Dickerson},
+              journal={ArXiv},
+              year={2022},
+              volume={abs/2205.07015}
+            }"
   - title: Revisiting parameter sharing in multi-agent deep reinforcement learning
-    authors: Terry, J. K., Nathaniel Grammel, Ananth Hari, Luis Santos, and Benjamin Black
+    authors: Terry, J. K., Grammel, Nathaniel, Hari, Ananth, Santos, Luis, and Black, Benjamin
     location: arXiv
     date: "2021"
     arxiv: "https://arxiv.org/abs/2005.13625"
