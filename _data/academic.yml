@@ -18,7 +18,7 @@ Peer Review Track Publications:
     arxiv: "https://arxiv.org/abs/2205.07015"
     bibtex: "@article{Sullivan2022CliffDE,
               title={Cliff Diving: Exploring Reward Surfaces in Reinforcement Learning Environments},
-              author={Ryan Sullivan and Justin K. Terry and Benjamin Black and John P. Dickerson},
+              author={Ryan Sullivan and J K. Terry and Benjamin Black and John P. Dickerson},
               journal={ArXiv},
               year={2022},
               volume={abs/2205.07015}
@@ -30,12 +30,12 @@ Peer Review Track Publications:
     arxiv: "https://arxiv.org/abs/2005.13625"
     bibtex: "@article{Terry2020RevisitingPS,
               title={Revisiting Parameter Sharing in Multi-Agent Deep Reinforcement Learning},
-              author={Justin K. Terry and Nathaniel Grammel and Ananth Hari and Luis Paulo Santos and Benjamin Black},
+              author={J K. Terry and Nathaniel Grammel and Ananth Hari and Luis Paulo Santos and Benjamin Black},
               journal={arXiv: Learning},
               year={2020}
             }"
   - title: "PettingZoo: Gym for multi-agent reinforcement learning"
-    authors: Terry, J. K., Nathaniel Grammel, Ananth Hari, Luis Santos, and Benjamin Black
+    authors: Terry, J. K., Grammel, Nathaniel , Hari, Ananth, Santos, Luis, and Black, Benjamin et. al.
     location: NeurIPS 2021
     date: "2021"
     arxiv: "https://arxiv.org/abs/2009.14471"
@@ -57,7 +57,7 @@ Peer Review Track Publications:
     arxiv: "https://arxiv.org/abs/1906.03291"
     bibtex: "@inproceedings{Huang2019UnderstandingGT,
               title={Understanding Generalization through Visualizations},
-              author={W. Ronny Huang and Zeyad Ali Sami Emam and Micah Goldblum and Liam Fowl and Justin K. Terry and Furong Huang and Tom Goldstein},
+              author={W. Ronny Huang and Zeyad Ali Sami Emam and Micah Goldblum and Liam Fowl and  J. K. Terry and Furong Huang and Tom Goldstein},
               booktitle={ICBINB@NeurIPS},
               year={2019}
             }"
@@ -82,7 +82,7 @@ Non-Peer Review Track Publications:
     arxiv: "https://arxiv.org/abs/2103.01205"
     bibtex: "@article{Terry2021StatisticallySS,
               title={Statistically Significant Stopping of Neural Network Training},
-              author={Justin K. Terry and Mario Jayakumar and Kusal De Alwis},
+              author={J. K. Terry and Mario Jayakumar and Kusal De Alwis},
               journal={ArXiv},
               year={2021},
               volume={abs/2103.01205}
@@ -94,7 +94,7 @@ Non-Peer Review Track Publications:
     arxiv: "https://arxiv.org/abs/2008.08932"
     bibtex: "@article{Terry2020SuperSuitSM,
               title={SuperSuit: Simple Microwrappers for Reinforcement Learning Environments},
-              author={Justin K. Terry and Benjamin Black and Ananth Hari},
+              author={J. K. Terry and Benjamin Black and Ananth Hari},
               journal={ArXiv},
               year={2020},
               volume={abs/2008.08932}
@@ -106,7 +106,7 @@ Non-Peer Review Track Publications:
     arxiv: "https://arxiv.org/abs/2009.09341"
     bibtex: "@article{Terry2020MultiplayerSF,
               title={Multiplayer Support for the Arcade Learning Environment},
-              author={Justin K. Terry and Benjamin Black},
+              author={J. K. Terry and Benjamin Black},
               journal={ArXiv},
               year={2020},
               volume={abs/2009.09341}
