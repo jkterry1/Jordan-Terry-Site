@@ -6,7 +6,6 @@ title: Jordan K Terry
 
 <div style="font-size:15px" id="webaddress">
 <a href="mailto:{{site.email}}">{{site.email}}</a>
-| <a href="{{site.baseurl}}">Website</a>
 </div>
 
 
