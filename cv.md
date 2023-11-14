@@ -11,7 +11,7 @@ title: Jordan K Terry
 
 ## Education
 
-`2018 - Present`
+`2018 - 2023`
 __University of Maryland, College Park__
 
 PhD, Computer Science
