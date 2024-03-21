@@ -40,9 +40,9 @@ Founder and CEO
 `8/2020 - present`
 __Swarm Labs__
 
-Founder and CEO
+Founder and CTO
 
-•  Founder and CEO of Swarm Labs, a stealth mode artificial intelligence startup.
+•  Founder and CTO of Swarm Labs, a stealth mode artificial intelligence startup.
 
 `1/2019 - 1/2023`
 __MTEQ__
